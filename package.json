@@ -1,6 +1,6 @@
 {
   "name": "webpack-inline-svg-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inline Svgs from an image tag to full svg markup",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "devDependencies": {
     "fs": "0.0.1-security"
   },
-  "publishConfig":{
-	"registry":"https://registry.npmjs.org/"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }

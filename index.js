@@ -16,7 +16,6 @@ WebpackInlineSvgPlugin.prototype.apply = function (compiler) {
       if ( matches) {
         for (let i = 0; i < matches.length; i ++) {
           if (matches[i].indexOf( 'inline-svg' ) !== -1) {
-			console.log(matches[i])
 			let classes = matches[i].split('class=\\"')[1] ? matches[i].split('class=\\"')[1].split('\\"')[0] : '';
 			let title = matches[i].split('title=\\"')[1] ? matches[i].split('title=\\"')[1].split('\\"')[0] : '';
             let svgContents = fs.readFileSync( self.options.basePath + matches[i].split('src=\\"')[1].split('\\">')[0]);

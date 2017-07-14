@@ -1,0 +1,29 @@
+{
+  "name": "webpack-inline-svg-plugin",
+  "version": "1.0.0",
+  "description": "Inline Svgs from an image tag to full svg markup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aharris/webpack-inline-svg-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "inline",
+    "svg",
+    "plugin",
+    "loader"
+  ],
+  "author": "Ashton Harris <ashtonharris.me@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aharris/webpack-inline-svg-plugin/issues"
+  },
+  "homepage": "https://github.com/aharris/webpack-inline-svg-plugin#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security"
+  }
+}

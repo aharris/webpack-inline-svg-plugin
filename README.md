@@ -28,7 +28,7 @@ module.exports = function (options) {
 In your markup add the `inline-svg` attribute
 
 ```
-<img inline-svg src="assets/icons/logo.svg">
+<img inline-svg class="logo" title="Logo" src="assets/icons/logo.svg">
 ```
 
 The result will be the full svg file content will replace this image tag.

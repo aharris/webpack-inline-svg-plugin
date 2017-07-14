@@ -25,5 +25,8 @@
   "homepage": "https://github.com/aharris/webpack-inline-svg-plugin#readme",
   "devDependencies": {
     "fs": "0.0.1-security"
+  },
+  "publishConfig":{
+	"registry":"https://registry.npmjs.org/"
   }
 }
